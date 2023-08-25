@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "njemojipicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nasneyland/NJEmojiPicker",
+      "state" : {
+        "branch" : "main",
+        "revision" : "c63269595b8f683f22dec020aa2380c96a764d72"
+      }
+    }
+  ],
+  "version" : 2
+}

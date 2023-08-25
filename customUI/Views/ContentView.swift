@@ -7,12 +7,18 @@
 
 import SwiftUI
 import CoreData
+import NJTimer
 
 struct ContentView: View {
     
     var body: some View {
-        List {
-            Text("hello")
+        NavigationView {
+            List {
+                NavigationLink(destination: NJEmojiPickerView()) {
+                    Text("NJEmojiPicker")
+                }
+            }
+            .navigationTitle("CustomUI")
         }
     }
 }

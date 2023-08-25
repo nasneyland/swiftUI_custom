@@ -7,35 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551230192A988C3200A8A100 /* NJEmojiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551230182A988C3200A8A100 /* NJEmojiPickerView.swift */; };
+		5512301C2A988C9900A8A100 /* NJEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5512301B2A988C9900A8A100 /* NJEmojiPicker */; };
 		FD75B8002A8CB6EF00AD4567 /* customUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B7FF2A8CB6EF00AD4567 /* customUIApp.swift */; };
 		FD75B8022A8CB6EF00AD4567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B8012A8CB6EF00AD4567 /* ContentView.swift */; };
 		FD75B8042A8CB6F000AD4567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD75B8032A8CB6F000AD4567 /* Assets.xcassets */; };
 		FD75B8072A8CB6F000AD4567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD75B8062A8CB6F000AD4567 /* Preview Assets.xcassets */; };
 		FD75B8092A8CB6F000AD4567 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B8082A8CB6F000AD4567 /* Persistence.swift */; };
 		FD75B80C2A8CB6F000AD4567 /* customUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD75B80A2A8CB6F000AD4567 /* customUI.xcdatamodeld */; };
-		FD75B8162A8CB6F000AD4567 /* customUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B8152A8CB6F000AD4567 /* customUITests.swift */; };
-		FD75B8202A8CB6F000AD4567 /* customUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B81F2A8CB6F000AD4567 /* customUIUITests.swift */; };
-		FD75B8222A8CB6F000AD4567 /* customUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B8212A8CB6F000AD4567 /* customUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FD75B8122A8CB6F000AD4567 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD75B7F42A8CB6EF00AD4567 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD75B7FB2A8CB6EF00AD4567;
-			remoteInfo = customUI;
-		};
-		FD75B81C2A8CB6F000AD4567 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FD75B7F42A8CB6EF00AD4567 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD75B7FB2A8CB6EF00AD4567;
-			remoteInfo = customUI;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		551230182A988C3200A8A100 /* NJEmojiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJEmojiPickerView.swift; sourceTree = "<group>"; };
 		FD75B7FC2A8CB6EF00AD4567 /* customUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD75B7FF2A8CB6EF00AD4567 /* customUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUIApp.swift; sourceTree = "<group>"; };
 		FD75B8012A8CB6EF00AD4567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,11 +26,6 @@
 		FD75B8062A8CB6F000AD4567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD75B8082A8CB6F000AD4567 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FD75B80B2A8CB6F000AD4567 /* customUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = customUI.xcdatamodel; sourceTree = "<group>"; };
-		FD75B8112A8CB6F000AD4567 /* customUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD75B8152A8CB6F000AD4567 /* customUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUITests.swift; sourceTree = "<group>"; };
-		FD75B81B2A8CB6F000AD4567 /* customUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD75B81F2A8CB6F000AD4567 /* customUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUIUITests.swift; sourceTree = "<group>"; };
-		FD75B8212A8CB6F000AD4567 /* customUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,32 +33,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD75B80E2A8CB6F000AD4567 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD75B8182A8CB6F000AD4567 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5512301C2A988C9900A8A100 /* NJEmojiPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		558ED3022A975F21002B2D0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD75B8012A8CB6EF00AD4567 /* ContentView.swift */,
+				551230182A988C3200A8A100 /* NJEmojiPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FD75B7F32A8CB6EF00AD4567 = {
 			isa = PBXGroup;
 			children = (
 				FD75B7FE2A8CB6EF00AD4567 /* customUI */,
-				FD75B8142A8CB6F000AD4567 /* customUITests */,
-				FD75B81E2A8CB6F000AD4567 /* customUIUITests */,
 				FD75B7FD2A8CB6EF00AD4567 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				FD75B7FC2A8CB6EF00AD4567 /* customUI.app */,
-				FD75B8112A8CB6F000AD4567 /* customUITests.xctest */,
-				FD75B81B2A8CB6F000AD4567 /* customUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,8 +68,8 @@
 		FD75B7FE2A8CB6EF00AD4567 /* customUI */ = {
 			isa = PBXGroup;
 			children = (
+				558ED3022A975F21002B2D0F /* Views */,
 				FD75B7FF2A8CB6EF00AD4567 /* customUIApp.swift */,
-				FD75B8012A8CB6EF00AD4567 /* ContentView.swift */,
 				FD75B8032A8CB6F000AD4567 /* Assets.xcassets */,
 				FD75B8082A8CB6F000AD4567 /* Persistence.swift */,
 				FD75B80A2A8CB6F000AD4567 /* customUI.xcdatamodeld */,
@@ -114,23 +84,6 @@
 				FD75B8062A8CB6F000AD4567 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		FD75B8142A8CB6F000AD4567 /* customUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FD75B8152A8CB6F000AD4567 /* customUITests.swift */,
-			);
-			path = customUITests;
-			sourceTree = "<group>";
-		};
-		FD75B81E2A8CB6F000AD4567 /* customUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FD75B81F2A8CB6F000AD4567 /* customUIUITests.swift */,
-				FD75B8212A8CB6F000AD4567 /* customUIUITestsLaunchTests.swift */,
-			);
-			path = customUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,45 +102,12 @@
 			dependencies = (
 			);
 			name = customUI;
+			packageProductDependencies = (
+				5512301B2A988C9900A8A100 /* NJEmojiPicker */,
+			);
 			productName = customUI;
 			productReference = FD75B7FC2A8CB6EF00AD4567 /* customUI.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FD75B8102A8CB6F000AD4567 /* customUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD75B8282A8CB6F000AD4567 /* Build configuration list for PBXNativeTarget "customUITests" */;
-			buildPhases = (
-				FD75B80D2A8CB6F000AD4567 /* Sources */,
-				FD75B80E2A8CB6F000AD4567 /* Frameworks */,
-				FD75B80F2A8CB6F000AD4567 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD75B8132A8CB6F000AD4567 /* PBXTargetDependency */,
-			);
-			name = customUITests;
-			productName = customUITests;
-			productReference = FD75B8112A8CB6F000AD4567 /* customUITests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FD75B81A2A8CB6F000AD4567 /* customUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FD75B82B2A8CB6F000AD4567 /* Build configuration list for PBXNativeTarget "customUIUITests" */;
-			buildPhases = (
-				FD75B8172A8CB6F000AD4567 /* Sources */,
-				FD75B8182A8CB6F000AD4567 /* Frameworks */,
-				FD75B8192A8CB6F000AD4567 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FD75B81D2A8CB6F000AD4567 /* PBXTargetDependency */,
-			);
-			name = customUIUITests;
-			productName = customUIUITests;
-			productReference = FD75B81B2A8CB6F000AD4567 /* customUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,14 +122,6 @@
 					FD75B7FB2A8CB6EF00AD4567 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					FD75B8102A8CB6F000AD4567 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = FD75B7FB2A8CB6EF00AD4567;
-					};
-					FD75B81A2A8CB6F000AD4567 = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = FD75B7FB2A8CB6EF00AD4567;
-					};
 				};
 			};
 			buildConfigurationList = FD75B7F72A8CB6EF00AD4567 /* Build configuration list for PBXProject "customUI" */;
@@ -221,13 +133,14 @@
 				Base,
 			);
 			mainGroup = FD75B7F32A8CB6EF00AD4567;
+			packageReferences = (
+				5512301A2A988C9900A8A100 /* XCRemoteSwiftPackageReference "NJEmojiPicker" */,
+			);
 			productRefGroup = FD75B7FD2A8CB6EF00AD4567 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FD75B7FB2A8CB6EF00AD4567 /* customUI */,
-				FD75B8102A8CB6F000AD4567 /* customUITests */,
-				FD75B81A2A8CB6F000AD4567 /* customUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +155,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD75B80F2A8CB6F000AD4567 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD75B8192A8CB6F000AD4567 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,41 +165,12 @@
 				FD75B8092A8CB6F000AD4567 /* Persistence.swift in Sources */,
 				FD75B8022A8CB6EF00AD4567 /* ContentView.swift in Sources */,
 				FD75B80C2A8CB6F000AD4567 /* customUI.xcdatamodeld in Sources */,
+				551230192A988C3200A8A100 /* NJEmojiPickerView.swift in Sources */,
 				FD75B8002A8CB6EF00AD4567 /* customUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD75B80D2A8CB6F000AD4567 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD75B8162A8CB6F000AD4567 /* customUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD75B8172A8CB6F000AD4567 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD75B8222A8CB6F000AD4567 /* customUIUITestsLaunchTests.swift in Sources */,
-				FD75B8202A8CB6F000AD4567 /* customUIUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FD75B8132A8CB6F000AD4567 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FD75B7FB2A8CB6EF00AD4567 /* customUI */;
-			targetProxy = FD75B8122A8CB6F000AD4567 /* PBXContainerItemProxy */;
-		};
-		FD75B81D2A8CB6F000AD4567 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FD75B7FB2A8CB6EF00AD4567 /* customUI */;
-			targetProxy = FD75B81C2A8CB6F000AD4567 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FD75B8232A8CB6F000AD4567 /* Debug */ = {
@@ -435,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,82 +346,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FD75B8292A8CB6F000AD4567 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.najin.customUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/customUI.app/customUI";
-			};
-			name = Debug;
-		};
-		FD75B82A2A8CB6F000AD4567 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.najin.customUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/customUI.app/customUI";
-			};
-			name = Release;
-		};
-		FD75B82C2A8CB6F000AD4567 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.najin.customUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = customUI;
-			};
-			name = Debug;
-		};
-		FD75B82D2A8CB6F000AD4567 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7JCB3TJ6U7;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.najin.customUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = customUI;
 			};
 			name = Release;
 		};
@@ -574,25 +370,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD75B8282A8CB6F000AD4567 /* Build configuration list for PBXNativeTarget "customUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD75B8292A8CB6F000AD4567 /* Debug */,
-				FD75B82A2A8CB6F000AD4567 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD75B82B2A8CB6F000AD4567 /* Build configuration list for PBXNativeTarget "customUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FD75B82C2A8CB6F000AD4567 /* Debug */,
-				FD75B82D2A8CB6F000AD4567 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5512301A2A988C9900A8A100 /* XCRemoteSwiftPackageReference "NJEmojiPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nasneyland/NJEmojiPicker";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5512301B2A988C9900A8A100 /* NJEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5512301A2A988C9900A8A100 /* XCRemoteSwiftPackageReference "NJEmojiPicker" */;
+			productName = NJEmojiPicker;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		FD75B80A2A8CB6F000AD4567 /* customUI.xcdatamodeld */ = {
