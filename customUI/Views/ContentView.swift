@@ -17,6 +17,9 @@ struct ContentView: View {
                 NavigationLink(destination: NJEmojiPickerView()) {
                     Text("NJEmojiPicker")
                 }
+                NavigationLink(destination: NJPickerView()) {
+                    Text("NJPicker")
+                }
             }
             .navigationTitle("CustomUI")
         }

@@ -6,7 +6,16 @@
       "location" : "https://github.com/nasneyland/NJEmojiPicker",
       "state" : {
         "branch" : "main",
-        "revision" : "c63269595b8f683f22dec020aa2380c96a764d72"
+        "revision" : "32ffc84f007ac242a41adcde55cebbb7e05b6178"
+      }
+    },
+    {
+      "identity" : "njpicker",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nasneyland/NJPicker",
+      "state" : {
+        "branch" : "main",
+        "revision" : "31a00347b84fbbcba4a6a583a71b460a512d81d4"
       }
     }
   ],

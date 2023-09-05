@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		551230192A988C3200A8A100 /* NJEmojiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551230182A988C3200A8A100 /* NJEmojiPickerView.swift */; };
 		5512301C2A988C9900A8A100 /* NJEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5512301B2A988C9900A8A100 /* NJEmojiPicker */; };
+		55B51F162AA5B15C0013F3D1 /* NJPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B51F152AA5B15C0013F3D1 /* NJPickerView.swift */; };
+		55B51F192AA5B2B70013F3D1 /* NJPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 55B51F182AA5B2B70013F3D1 /* NJPicker */; };
 		FD75B8002A8CB6EF00AD4567 /* customUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B7FF2A8CB6EF00AD4567 /* customUIApp.swift */; };
 		FD75B8022A8CB6EF00AD4567 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD75B8012A8CB6EF00AD4567 /* ContentView.swift */; };
 		FD75B8042A8CB6F000AD4567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD75B8032A8CB6F000AD4567 /* Assets.xcassets */; };
@@ -19,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		551230182A988C3200A8A100 /* NJEmojiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJEmojiPickerView.swift; sourceTree = "<group>"; };
+		55B51F152AA5B15C0013F3D1 /* NJPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NJPickerView.swift; sourceTree = "<group>"; };
 		FD75B7FC2A8CB6EF00AD4567 /* customUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD75B7FF2A8CB6EF00AD4567 /* customUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customUIApp.swift; sourceTree = "<group>"; };
 		FD75B8012A8CB6EF00AD4567 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B51F192AA5B2B70013F3D1 /* NJPicker in Frameworks */,
 				5512301C2A988C9900A8A100 /* NJEmojiPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +49,7 @@
 			children = (
 				FD75B8012A8CB6EF00AD4567 /* ContentView.swift */,
 				551230182A988C3200A8A100 /* NJEmojiPickerView.swift */,
+				55B51F152AA5B15C0013F3D1 /* NJPickerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 			name = customUI;
 			packageProductDependencies = (
 				5512301B2A988C9900A8A100 /* NJEmojiPicker */,
+				55B51F182AA5B2B70013F3D1 /* NJPicker */,
 			);
 			productName = customUI;
 			productReference = FD75B7FC2A8CB6EF00AD4567 /* customUI.app */;
@@ -135,6 +141,7 @@
 			mainGroup = FD75B7F32A8CB6EF00AD4567;
 			packageReferences = (
 				5512301A2A988C9900A8A100 /* XCRemoteSwiftPackageReference "NJEmojiPicker" */,
+				55B51F172AA5B2B70013F3D1 /* XCRemoteSwiftPackageReference "NJPicker" */,
 			);
 			productRefGroup = FD75B7FD2A8CB6EF00AD4567 /* Products */;
 			projectDirPath = "";
@@ -166,6 +173,7 @@
 				FD75B8022A8CB6EF00AD4567 /* ContentView.swift in Sources */,
 				FD75B80C2A8CB6F000AD4567 /* customUI.xcdatamodeld in Sources */,
 				551230192A988C3200A8A100 /* NJEmojiPickerView.swift in Sources */,
+				55B51F162AA5B15C0013F3D1 /* NJPickerView.swift in Sources */,
 				FD75B8002A8CB6EF00AD4567 /* customUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +389,14 @@
 				kind = branch;
 			};
 		};
+		55B51F172AA5B2B70013F3D1 /* XCRemoteSwiftPackageReference "NJPicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nasneyland/NJPicker";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -388,6 +404,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5512301A2A988C9900A8A100 /* XCRemoteSwiftPackageReference "NJEmojiPicker" */;
 			productName = NJEmojiPicker;
+		};
+		55B51F182AA5B2B70013F3D1 /* NJPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55B51F172AA5B2B70013F3D1 /* XCRemoteSwiftPackageReference "NJPicker" */;
+			productName = NJPicker;
 		};
 /* End XCSwiftPackageProductDependency section */
 
